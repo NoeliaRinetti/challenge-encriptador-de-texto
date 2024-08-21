@@ -48,7 +48,7 @@ main {
 
 .text-area { 
     background: white;
-    background-image: url(/Imagenes/Muñeco.png);
+    background-image: url(/imagenes/Muñeco.png);
     background-position: center;
     background-size: contain ;
     background-repeat: no-repeat ;
