@@ -10,6 +10,7 @@
 
 body {
     box-sizing: border-box;
+    max-width: 100%;
  }
 
 .logo { 
@@ -21,21 +22,22 @@ body {
 
 main {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 20px;
     margin: 80px;
 }
 
 .ingreso-texto { 
-    height: 560px;
+    height: 834px;
     border: none;
     color: #0a3871; 
     font-size: 2rem;
     margin-top: 30px;
-    padding: 2px;
+    padding: 15px;
     text-transform: lowercase;
     resize: none;
-    width: 700px;
-    gap: 32px;
+    width: 200%;
+    
 }
 
 ::placeholder { 
@@ -74,7 +76,7 @@ main {
 .informacion {
     color: #495057;
     font-size: 0.75rem;
-    margin-top: 280px;
+    margin-top: auto;
     display: flex;
 }
 
@@ -148,6 +150,7 @@ main {
 
     .text-area {
         width: 100%;
+        height: 50%;
         margin: 20px 0;
     }
    
@@ -166,13 +169,14 @@ main {
 @media (max-width: 768px) {
     .ingreso-texto {
         width: 100%;
+        height: 75%;
         font-size: 24px;
         margin: 10px 0;
     }
 
     .text-area {
         width: 100%;
-        height: auto;
+        height: 50%;
         margin: 10px 0;
     }
   
